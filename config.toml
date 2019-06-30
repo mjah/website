@@ -28,7 +28,7 @@ disable404     = false
 disableHugoGeneratorInject = false
 
 [permalinks]
-  posts = "/blog/:year/:month/:title/"
+  posts = "/posts/:year/:month/:title/"
 
 [author]
   name = "Muhammad Abdul Hafiz"
@@ -57,7 +57,7 @@ disableHugoGeneratorInject = false
   gitUrl = "https://github.com/mjah/website/commit/"
 
   # Directory name of the blog content (default is `content/posts`)
-  contentTypeName = "blog"
+  contentTypeName = "content/posts"
 
   # Default theme "light" or "dark"
   defaultTheme = "dark"
@@ -73,15 +73,15 @@ disableHugoGeneratorInject = false
 
   [[params.social]]
     name = "github"
-    url  = "https://github.com/mjah/"
+    url  = "https://github.com/mjah"
 
   [[params.social]]
     name = "gitlab"
-    url  = "https://gitlab.com/mjah/"
+    url  = "https://gitlab.com/mjah"
 
   [[params.social]]
     name = "twitter"
-    url  = "https://twitter.com/_mjah/"
+    url  = "https://twitter.com/_mjah"
 
   [[params.social]]
     name = "linkedin"
@@ -90,7 +90,6 @@ disableHugoGeneratorInject = false
 [languages]
   [languages.en]
     subtitle  = "Website"
-    weight    = 1
     copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener">CC BY-NC 4.0</a>'
 
 [menu]
@@ -100,6 +99,6 @@ disableHugoGeneratorInject = false
     url         = "about/"
 
   [[menu.main]]
-    identifier  = "blog"
+    identifier  = "posts"
     name        = "Blog"
-    url         = "blog/"
+    url         = "posts/"
