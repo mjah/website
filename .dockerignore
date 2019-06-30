@@ -1,0 +1,19 @@
+# Default
+Dockerfile
+docker-compose*
+.dockerignore
+#.git # required for hugo
+.gitignore
+
+# Hugo
+public
+resources
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# OSX
+.DS_Store
