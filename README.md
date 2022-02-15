@@ -1,6 +1,6 @@
 # My Website
 
-[My Website](https://moejay.com).
+[My Website](https://mjah.xyz).
 
 Made with [Hugo](https://gohugo.io/).
 
