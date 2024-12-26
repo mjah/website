@@ -69,7 +69,7 @@ disableHugoGeneratorInject = false
   # Social icons
   [[params.social]]
     name = "email"
-    url  = "mailto:moe@moejay.com"
+    url  = "mailto:jay@mjah.xyz"
 
   [[params.social]]
     name = "github"
@@ -81,7 +81,7 @@ disableHugoGeneratorInject = false
 
   [[params.social]]
     name = "twitter"
-    url  = "https://twitter.com/_mjah"
+    url  = "https://x.com/_mjah"
 
   [[params.social]]
     name = "linkedin"
