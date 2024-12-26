@@ -2,7 +2,7 @@
 FROM alpine:latest AS build-deps
 
 ## Set hugo version
-ENV HUGO_VERSION 0.55.6
+ENV HUGO_VERSION 0.140.1
 
 ## Install gcompat
 RUN apk add --no-cache gcompat
